@@ -4,12 +4,16 @@ this repo is still a wip - bare with me while i populate it!
 
 ### projects
 
-- [animalese](#animalese)
+- [animalese](#animalese) (tauri, rust, svelte, typescript)
 
 ### challenges
 
-- [advent of code](#advent-of-code)
-- [project euler](#project-euler)
+- [advent of code](#advent-of-code) (rust)
+- [project euler](#project-euler) (rust)
+
+### other
+
+- [salad](#salad) (nix)
 
 ## projects
 
@@ -19,9 +23,9 @@ this repo is still a wip - bare with me while i populate it!
 
 - [source code](https://github.com/isitreallyalive/animalese)
 
-written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [typescript](https://www.typescriptlang.org/), and [svelte](https://svelte.dev).
+written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [svelte](https://svelte.dev), and [typescript](https://www.typescriptlang.org).
 
-<img src="icon/tauri.svg" height="32"> <img src="icon/rust.svg" height="32"> <img src="icon/typescript.svg" height="32"> <img src="icon/svelte.svg" height="32">
+<img src="icon/tauri.svg" height="32"> <img src="icon/rust.svg" height="32"> <img src="icon/svelte.svg" height="32"> <img src="icon/typescript.svg" height="32">
 
 ## challenges
 
@@ -46,3 +50,16 @@ all of my solutions are written in [rust](https://rust-lang.org).
 both my custom runner and all of my solutions are written in [rust](https://rust-lang.org).
 
 <img src="icon/rust.svg" height="32">
+
+## other
+
+### salad
+
+> ❄️ My NixOS configuration :]
+
+- [repo](https://github.com/isitreallyalive/salad)
+- [book](https://salad.newty.dev)
+
+given that it is a nixos configuration, it is naturally written entirely in [nix](https://nixos.org).
+
+<img src="icon/nix.svg" height="32">
