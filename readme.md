@@ -5,6 +5,7 @@ this repo is still a wip - bare with me while i populate it!
 ### projects
 
 - [animalese](#animalese) (tauri, rust, svelte, typescript)
+- [muter](#muter) (go)
 - [pride-overlay](#pride-overlay) (rust, wasm)
 
 ### forks
@@ -33,6 +34,18 @@ cross-platform tauri app to play animal crossing sound effects (primarily [anima
 written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [svelte](https://svelte.dev), and [typescript](https://typescriptlang.org).
 
 <img src="icon/tauri.svg" height="32"> <img src="icon/rust.svg" height="32"> <img src="icon/svelte.svg" height="32"> <img src="icon/typescript.svg" height="32">
+
+### muter
+
+> 🪞 mirror system mutes across communication platforms!
+
+- [repo](https://github.com/isitreallyalive/muter)
+
+enables bidirectional mute synchronization between your system microphone and communication applications. currently only supports [vencord](https://vencord.dev), but contributions are welcome.
+
+this project is written in [go](https://go.dev). the [vencord](https://vencord.dev) plugin is written in [typescript](https://typescriptlang.org).
+
+<img src="icon/go.svg" height="32"> <img src="icon/typescript.svg" height="32">
 
 ### pride-overlay
 
