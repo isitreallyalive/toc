@@ -5,10 +5,11 @@ this repo is still a wip - bare with me while i populate it!
 ### projects
 
 - [animalese](#animalese) (tauri, rust, svelte, typescript)
+- [pride-overlay](#pride-overlay) (rust, wasm)
 
 ### forks
 
-- [snk](#snk) (typescript)
+- [snk](#snk) (typescript, docker)
 
 ### challenges
 
@@ -23,13 +24,28 @@ this repo is still a wip - bare with me while i populate it!
 
 ### animalese [WIP]
 
-> 🔔 play [animalese](https://nookipedia.com/wiki/Animalese) sound effects as you type
+> 🔔 play [animalese](https://nookipedia.com/wiki/Animalese) as you type
 
 - [source code](https://github.com/isitreallyalive/animalese)
 
-written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [svelte](https://svelte.dev), and [typescript](https://www.typescriptlang.org).
+cross-platform tauri app to play animal crossing sound effects (primarily [animalese](https://nookipedia.com/wiki/Animalese)) while you type.
+
+written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [svelte](https://svelte.dev), and [typescript](https://typescriptlang.org).
 
 <img src="icon/tauri.svg" height="32"> <img src="icon/rust.svg" height="32"> <img src="icon/svelte.svg" height="32"> <img src="icon/typescript.svg" height="32">
+
+### pride-overlay
+
+> 🏳️‍⚧️ put pride flags on images!
+
+- [repo](https://github.com/isitreallyalive/pride-overlay)
+- [crates.io](https://crates.io/crates/pride-overlay)
+
+rust crate to overlay pride flags on images. being rewritten to provide a more ergonomic api and wasm support.
+
+this project is written in [rust](https://rust-lang.org) and compiles to [wasm](https://webassembly.org/).
+
+<img src="icon/rust.svg" height="32"> <img src="icon/wasm.svg" height="32">
 
 ## forks
 
@@ -44,7 +60,7 @@ this fork introduces the `color_progress` option to change the colour of the pro
 
 i attempted to contribute these changes upstream, however [my pr](https://github.com/Platane/snk/pull/155) was closed because the author didn't want to "introduce changes into the API", so i maintain it myself.
 
-this project is written in typescript, but also make uses of docker.
+this project is written in [typescript](https://typescriptlang.org), but also make uses of [docker](https://docker.com).
 
 <img src="icon/typescript.svg" height="32"> <img src="icon/docker.svg" height="32">
 
