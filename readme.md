@@ -5,6 +5,7 @@ this repo is still a wip - bare with me while i populate it!
 ### projects
 
 - [animalese](#animalese) (tauri, rust, svelte, typescript)
+- [bert](#bert) (rust)
 - [muter](#muter) (go)
 - [pride-overlay](#pride-overlay) (rust, wasm)
 
@@ -39,6 +40,23 @@ cross-platform tauri app to play animal crossing sound effects (primarily [anima
 written using [tauri](https://tauri.app), [rust](https://rust-lang.org), [svelte](https://svelte.dev), and [typescript](https://typescriptlang.org).
 
 <img src="icon/tauri.svg" height="32"> <img src="icon/rust.svg" height="32"> <img src="icon/svelte.svg" height="32"> <img src="icon/typescript.svg" height="32">
+
+### bert [WIP]
+
+> 🐶 the modular discord bot that you'll love
+
+- [source code](https://github.com/isitreallyalive/bert)
+
+modular [discord](https://discord.com) bot that does things the right way. trust me, you'll love it.
+
+the mascot is bert the dog. isn't he lovely?
+
+<img src="bert.webp" height="128">
+
+this project is written in [rust](https://rust-lang.org) and uses the [serenity](https://github.com/serenity-rs/serenity) library to interact with the [discord](https://discord.com) api.
+
+<img src="icon/rust.svg" height="32">
+<img src="icon/serenity.webp" height="32">
 
 ### muter
 
