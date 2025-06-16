@@ -12,6 +12,11 @@ this repo is still a wip - bare with me while i populate it!
 
 - [snk](#snk) (typescript, docker)
 
+
+### contributions
+
+- [vault-rs](#vault-rs) (rust)
+
 ### challenges
 
 - [advent of code](#advent-of-code) (rust)
@@ -76,6 +81,21 @@ i attempted to contribute these changes upstream, however [my pr](https://github
 this project is written in [typescript](https://typescriptlang.org), but also make uses of [docker](https://docker.com).
 
 <img src="icon/typescript.svg" height="32"> <img src="icon/docker.svg" height="32">
+
+## contributions
+
+### vault-rs
+
+> An asynchronous Rust client library for the Hashicorp Vault API
+
+- [fork](https://github.com/isitreallyalive/vaultrs)
+- [upstream](https://github.com/jmgilman/vaultrs)
+
+i contributed the code for the [cubbyhole](https://developer.hashicorp.com/vault/api-docs/secret/cubbyhole) secret engine in [pr #131](https://github.com/jmgilman/vaultrs/pull/131).
+
+this project is written in [rust](https://rust-lang.org) and was created by [Joshua Gilman](https://github.com/jmgilman).
+
+<img src="icon/rust.svg" height="32">
 
 ## challenges
 
