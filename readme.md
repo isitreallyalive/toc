@@ -13,9 +13,9 @@ this repo is still a wip - bare with me while i populate it!
 
 - [snk](#snk) (typescript, docker)
 
-
 ### contributions
 
+- [rust-clippy](#rust-clippy) (rust)
 - [vault-rs](#vault-rs) (rust)
 
 ### challenges
@@ -55,8 +55,7 @@ the mascot is bert the dog. isn't he lovely?
 
 this project is written in [rust](https://rust-lang.org) and uses the [serenity](https://github.com/serenity-rs/serenity) library to interact with the [discord](https://discord.com) api.
 
-<img src="icon/rust.svg" height="32">
-<img src="icon/serenity.webp" height="32">
+<img src="icon/rust.svg" height="32"> <img src="icon/serenity.webp" height="32">
 
 ### muter
 
@@ -101,6 +100,19 @@ this project is written in [typescript](https://typescriptlang.org), but also ma
 <img src="icon/typescript.svg" height="32"> <img src="icon/docker.svg" height="32">
 
 ## contributions
+
+### rust-clippy
+
+> A bunch of lints to catch common mistakes and improve your Rust code.
+
+- [fork](https://github.com/isitreallyalive/rust-clippy)
+- [upstream](https://github.com/rust-lang/rust-clippy)
+
+i contributed a fix to the [`duplicated_attributes`](https://rust-lang.github.io/rust-clippy/master/index.html#duplicated_attributes) lint which allowed it to detect prefixed attributes, such as `clippy::lint_name` in [pr #15212](https://github.com/rust-lang/rust-clippy/pull/15212).
+
+this project is written in [rust](https://rust-lang.org) and is an official project of [the rust programming language](https://github.com/rust-lang).
+
+<img src="icon/rust.svg" height="32">
 
 ### vault-rs
 
