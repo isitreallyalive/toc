@@ -11,7 +11,7 @@ this repo is still a wip - bare with me while i populate it!
 
 ### forks
 
-- [snk](#snk) (typescript, docker)
+- [snkgen](#snkgen) (typescript, docker)
 
 ### contributions
 
@@ -84,14 +84,14 @@ this project is written in [rust](https://rust-lang.org) and compiles to [wasm](
 
 ## forks
 
-### snk
+### snkgen
 
-> 🐍 custom fork of [platane/snk](https://github.com/platane/snk)
+> 🐍 [Platane/snk](https://github.com/platane/snk) with more features!
 
-- [repo](https://github.com/isitreallyalive/snk)
+- [repo](https://github.com/isitreallyalive/snkgen)
 - [original](https://github.com/platane/snk)
 
-this fork introduces the `color_progress` option to change the colour of the progress bar. this can be seen in action at the bottom of my profile readme.
+this hard fork introduces the `color_progress` option to change the colour of the progress bar. this can be seen in action at the bottom of my profile readme.
 
 i attempted to contribute these changes upstream, however [my pr](https://github.com/Platane/snk/pull/155) was closed because the author didn't want to "introduce changes into the API", so i maintain it myself.
 
